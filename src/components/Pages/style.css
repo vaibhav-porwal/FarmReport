@@ -1,0 +1,51 @@
+.head{
+   display: "flex";
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.head1{
+    color: rgb(192, 109, 109);
+    padding: 10px;
+    font-size: 30px;
+}
+.formtype{
+align-self: center;
+margin-top: 20;
+margin-bottom: 30;
+margin-left: 100;
+}
+.para1{
+    color: rgb(41, 57, 197);
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.dropbox1{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 8px;
+    align-items: center;
+}
+/* .div1{
+    width: 20px;
+} */
+/* .dropbox2{
+    width: 400px;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 10px;
+} */
+.btn1{
+    border-radius: 8px;
+    background-color: green;
+    margin: 8px;
+    padding: 12px 19px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+.btn1:hover{
+    background-color: rgb(96, 119, 60);
+}

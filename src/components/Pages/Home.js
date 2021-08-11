@@ -1,17 +1,15 @@
 import React from 'react';
-
+import NewReport from './NewReport';
+import Commom1 from './Common1';
 const Home = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '90vh'
-      }}
-    >
-      <h1>Home</h1>
-    </div>
+    <>
+    <Commom1
+      name="Grow your business with"
+      visit="/services"
+      btname="Get Started"
+    />
+  </>
   );
 };
 
